@@ -1,0 +1,81 @@
+{
+	"topWindow": {
+		"path": "pages/index/top-window.vue",
+		"style": {
+			"height": "60px"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						// "buttons": [{
+						// 	"text": "\ue534",
+						// 	"fontSrc": "/static/uni.ttf",
+						// 	"fontSize": "22px",
+						// 	"color": "#FFFFFF"
+						// }]
+					}
+				}
+			}
+		}
+		// {
+		// 	"path": "pages/index/indexCopy",
+		// 	"style": {
+		// 		"navigationBarTitleText": "接口"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/index/indexCopy1",
+		// 	"style": {
+		// 		"navigationBarTitleText": "page1"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/index/indexCopy2",
+		// 	"style": {
+		// 		"navigationBarTitleText": "page2"
+		// 	}
+		// }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "演示",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"renderingMode": "seperated", // 仅微信小程序，webrtc 无法正常时尝试强制关闭同层渲染
+		"pageOrientation": "portrait", //横屏配置，全局屏幕旋转设置(仅 APP/微信/QQ小程序)，支持 auto / portrait / landscape
+		"rpxCalcMaxDeviceWidth": 960,
+		"rpxCalcBaseDeviceWidth": 375,
+		"rpxCalcIncludeWidth": 750,
+		"h5": {
+			"maxWidth": 1190,
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#F1F1F1"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [
+			{
+				"pagePath": "pages/personal",
+				"text": "个人简介"
+			},
+			{
+				"pagePath": "pages/work",
+				"text": "工作经历"
+			},
+			{
+				"pagePath": "pages/education",
+				"text": "教育经历"
+			}
+		]
+	}
+}
