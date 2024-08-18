@@ -1,0 +1,8 @@
+{
+    "h5": {
+      "router": {
+        "mode": "hash",
+        "base": "/Uniapp-Resume/"
+      }
+    }
+  }

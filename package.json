@@ -107,6 +107,14 @@
     "ios >= 9"
   ],
   "uni-app": {
-    "scripts": {}
+    "scripts": {},
+    "platforms": {
+      "h5": {
+        "publicPath": "/Uniapp-Resume/",
+        "router": {
+          "mode": "hash"
+        }
+      }
+    }
   }
 }
