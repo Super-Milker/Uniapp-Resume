@@ -9,7 +9,7 @@
       <el-divider content-position="right">学习部副部长</el-divider>
     </div>
     <view :animation="animationData">
-      <el-image class="logo" src="/static/good.png"></el-image>
+      <el-image class="logo" src="./static/good.png"></el-image>
     </view>
     <el-button @click="giveGood">点个赞吧！</el-button>
   </view>

@@ -2,7 +2,7 @@
   <view class="content">
     <!-- <image class="logo" src="/static/logo.png"></image>-->
     <view class="headImg">
-      <el-image class="logo" src="/static/head.jpg"></el-image>
+      <el-image class="logo" src="./static/head.jpg"></el-image>
     </view>
     <view class="headText">
       <!-- <text class="title">{{name}}</text>
