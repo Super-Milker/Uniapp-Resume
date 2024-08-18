@@ -108,13 +108,16 @@
   ],
   "uni-app": {
     "scripts": {},
-    "platforms": {
-      "h5": {
-        "publicPath": "/Uniapp-Resume/",
-        "router": {
-          "mode": "hash"
-        }
+    "h5": {
+      "publicPath": "/Uniapp-Resume/",
+      "router": {
+        "mode": "hash"
       }
+    }
+  },
+  "h5": {
+    "router": {
+      "base": "/Uniapp-Resume/"
     }
   }
 }

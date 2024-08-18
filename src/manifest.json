@@ -74,6 +74,7 @@
         "usingComponents" : true
     },
     "h5" : {
+        "publicPath": "/Uniapp-Resume/",
         "sdkConfigs" : {
             "maps" : {
                 "amap" : {
